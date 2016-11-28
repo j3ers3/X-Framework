@@ -73,7 +73,7 @@ def dirscan():
 		    url += dir_path.get()
 		    r = requests.get(url,headers=headers)
 	
-		    if r.status_code != 404:
+		    if r.status_code not in (404,500,501,401):
 			print(tag_true + url + '\t' + str(r.status_code))
 		    url = options[0]
 	    

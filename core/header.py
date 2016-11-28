@@ -4,35 +4,41 @@ import mycolor
 def main_header():
 
     header_1 = mycolor.color.cyan + """
-      1000101100000000111111111111111000000011111110000
-      0011111111000000011111101010101010101010000000000
-      1111111111111111111111111000000000001010000000111
-      0011110000001010101011111111111010101011111111111
-      1111110011110000011111111111111111100000000111111
-				00001111111
-				00001111110
-				11000000111
-		0 0		01010101010
-				01111111010
-				11111100101
-				00000001111101010101011
-				11111111110001111010111
-
-      11111111111110000000
-      00000101010101111111""" + mycolor.color.end
+                             _________-----_____ 
+              _____------                __        ------_ 
+   ___----                 ___------                       \ 
+       ----________          ----                           \ 
+                        -----__    |                     _____ ) 
+                               __-                        /#####\ 
+              _______-----    ___--                 \####/)\ 
+      ------_______      ---____                     \##/  / 
+                        -----__    \ --      _             --   /\   
+                                 --__--__     \_____/        \_/\ 
+                                          ----|       /              | 
+                                                |     |___________| 
+                                                 |  |   |  | ((_(_)| )_) 
+                                                 |     |  \_((_(_)|/(_) 
+                                                   \                   ( 
+                                                     \___________) 
+                                                          /
+   | Version                : 0.5                        /
+   | Auth                   : Whois                   /
+   | Codename              : X-Frame                /
+   | Follow me on Github  : @j3ers3              /
+   ------------------------------------------------""" + mycolor.color.end
 
     header_2 = mycolor.color.green + r"""
-      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-      M						      M
-      M						      M
-      M						      M
+                        |\                    
+                        | \      
+      ()######## |   ========================================================> 
+                        | /       
+                        |/        
       M		    Whois's Framework   	      M
-      M						      M
-      M						      M
-      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+      M						                        M
+      M						                        M
+      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
       MMMMMMMMMMMMMM			 MMMMMMMMMMMMMM
-      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM""" + mycolor.color.end
+      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM""" + mycolor.color.end
 
     header_3 = mycolor.color.purple + r"""
       ooooooooooooooooooooooooooooooooooooooooooooooooo
@@ -81,6 +87,22 @@ def main_header():
 	E%###$%%%%%%$$##$%%^^^$$$$$$%#$ETTTE##33
 	---------------------------------------||||
      """ + mycolor.color.end
+
+"""
+  --            / | 
+    \   \        /  | 
+     \    \     /   / 
+       \   \   |   / 
+         \  \  | /  
+          _\ \/ / 
+        '      < 
+      / (@)     \ 
+     (           | 
+      \..       / 
+         | ____/ 
+        (V) === 
+        (A)
+        """
 
     logo = [header_1,header_2,header_3,header_4,header_5]
     banner = random.choice(logo)
