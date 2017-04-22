@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-# encoding:utf-8
+# encoding:utf8
 
-__version__ = "0.4"
-__author__  = "whois"
+__version__ = "0.5"
+__author__  = "kkk"
 __prog__    = "OOOOO"
 
 from core.mycolor import color
@@ -14,7 +14,8 @@ from modules import dirbb
 from modules import sms
 from modules import query
 from modules import burp
-from modules import liang
+from modules import nanfang
+from modules import S2045
 
 def main():
 
@@ -54,12 +55,15 @@ def main():
                 main()
             elif terminal[4:12] == 'tools/ip':
                 query.MyTools().loc_ip()
-                main()	
+                main()  
             elif terminal[4:11] == 'exp/sms':
                 sms.sms_attack()
                 main()
-            elif terminal[4:13] == 'cms/liang':
-                liang.sql_exp()
+            elif terminal[4:30] == 'cms/nanfang_sqli_newstype':
+                nanfang.sql_exp()
+                main()
+            elif terminal[4:30] == 'exp/s2045':
+                S2045.exp()
                 main()
             elif terminal[4:12]  == 'burp/web':
                 burp.burp()
@@ -85,4 +89,3 @@ def exploit():
 
 if __name__ == '__main__':
     exploit()
-

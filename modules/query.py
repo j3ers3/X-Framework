@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-#!encoding:utf-8
+# encoding:utf8
 # 利用接口进行查询 http://www.haoservice.com
 # create 15/8/26
 

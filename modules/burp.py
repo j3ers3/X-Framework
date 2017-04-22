@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-#!encoding:utf-8
+# encoding:utf8
 # BURP Attack Moules
 # Created 9/1
 

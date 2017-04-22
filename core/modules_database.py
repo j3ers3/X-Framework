@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# encoding:utf-8
-# show modules 
-# 8/14
+# encoding:utf8
 
 from core.mycolor import color
 
@@ -10,17 +7,24 @@ def show_modules():
     red_line = color.red + "------------------\t\t\t---------------" + color.end 
     print color.blue + "Information Modules\t\t\tDescription" + color.end      
     print red_line 
-    print "info/dir_scan\t\t\t\t目录爬行" 
+    print "info/dir_scan\t\t\t\tDirector Scan" 
     print "info/zoomeye\t\t\t\tZoomeye Search"
     print "info/baidu\t\t\t\tBaidu Search"
     print "info/google\t\t\t\tGoogle Search"
+    print "info/shadow\t\t\t\tShadow Search"
     print "\n" 
     print color.blue + "CMS Modules\t\t\t\tDescription" + color.end 
     print red_line 
-    print "cms/discuz\t\t\t\tdiscuz 注入漏洞" 
-    print "cms/liang\t\t\t\t良方精品sql注入漏洞"
+    print "cms/discuz\t\t\t\tDiscuz " 
+    print "cms/nanfang_sqli_newstype\t\t良精南方 NewsType.asp SQLinject"
+    print "phpcms/"
+    print "dede/"
     print "exp/sms\t\t\t\t\tSMS attack" 
     print "\n" 
+    print color.blue + "EXP Modules\t\t\t\tDescription" + color.end
+    print red_line
+    print "exp/s2045\t\t\t\tApache Struts Jakarta Multipart Parser OGNL Injection"
+    print "\n"
     print color.blue + "Tools Modules\t\t\t\tDescription" + color.end 
     print red_line 
     print "tools/12306\t\t\t\t12306火车票查询" 

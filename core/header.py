@@ -22,7 +22,7 @@ def main_header():
                                                      \___________) 
                                                           /
    | Version                : 0.5                        /
-   | Auth                   : Whois                   /
+   | Auth                   : kkk                     /
    | Codename              : X-Frame                /
    | Follow me on Github  : @j3ers3              /
    ------------------------------------------------""" + mycolor.color.end
@@ -33,7 +33,7 @@ def main_header():
       ()######## |   ========================================================> 
                         | /       
                         |/        
-      M		    Whois's Framework   	      M
+      M		    X Framework   	                 M
       M						                        M
       M						                        M
       MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
@@ -55,6 +55,8 @@ def main_header():
 	     ; 0000000000000000000000000000000;
 	       . \\000000000000000000000000//
 	         ------------------------""" + mycolor.color.end
+    
+
 
     header_4 = mycolor.color.darkcyan + """
                                ,;        ,;                            
@@ -77,32 +79,17 @@ def main_header():
         < whoami >
          --------------------------
                 \   ^__^			---
-                 \  (oo)\_______		|  \
+                 \  (00)\_______		 |  \
                     (__)\       )\/\/		| o \
-                        ||----w |		|    \
-                        ||     ||		|-----\
-						|
+                        ||----w |		 |    \
+                        ||        ||		 |-----\
+						--      --      --        --
 	---------E@###------------%%%###--------|
 
 	E%###$%%%%%%$$##$%%^^^$$$$$$%#$ETTTE##33
 	---------------------------------------||||
      """ + mycolor.color.end
 
-"""
-  --            / | 
-    \   \        /  | 
-     \    \     /   / 
-       \   \   |   / 
-         \  \  | /  
-          _\ \/ / 
-        '      < 
-      / (@)     \ 
-     (           | 
-      \..       / 
-         | ____/ 
-        (V) === 
-        (A)
-        """
 
     logo = [header_1,header_2,header_3,header_4,header_5]
     banner = random.choice(logo)

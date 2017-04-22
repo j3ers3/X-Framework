@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# encoding:utf-8
+# encoding:utf8
 # SMS Attack Modules
 # Created 8/28
 import requests

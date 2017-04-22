@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+# encoding:utf8
 
 import requests
 from threading import Thread
