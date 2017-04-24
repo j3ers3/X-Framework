@@ -17,8 +17,8 @@ def show_modules():
     print red_line 
     print "cms/discuz\t\t\t\tDiscuz " 
     print "cms/nanfang_sqli_newstype\t\t良精南方 NewsType.asp SQLinject"
-    print "phpcms/"
-    print "dede/"
+    print "cms/phpcms"
+    print "cms/dede"
     print "exp/sms\t\t\t\t\tSMS attack" 
     print "\n" 
     print color.blue + "EXP Modules\t\t\t\tDescription" + color.end
@@ -37,6 +37,11 @@ def show_modules():
     print red_line 
     print "burp/web\t\t\t\t对认证页面进行暴力破解" 
     print "\n" 
+    print color.blue + "Misc Modules\t\t\t\tDescription" + color.end
+    print red_line
+    print "misc/webshell\t\t\t\twebshell"
+    print "misc/msf\t\t\t\tmetasploit shell generate"
+    print "\n"
 
     
 

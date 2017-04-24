@@ -3,7 +3,7 @@
 from core.mycolor import color
 
 def ksf_line(module, module_name):
-    ksf_1 = color.blue + color.bold + color.underl + "XF" + color.end
+    ksf_1 = color.blue + color.bold + color.underl + "xsf" + color.end
     ksf_1 += ' ' 
     ksf_1 += color.blue + color.bold + module + '(' + color.end
     ksf_1 += color.red + color.bold + module_name + color.end
@@ -25,6 +25,6 @@ def print_err(string):
 
 def show_op():
     print "" 
-    print "Name\t\tCurrent Setting\t\t\tDescription" 
-    print "-------\t\t---------------------\t\t-----------------" 
+    print color.blue + "Name\t\tCurrent Setting\t\t\tDescription" + color.end
+    print color.red + "-------\t\t---------------------\t\t-----------------" + color.end
 

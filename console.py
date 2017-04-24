@@ -11,6 +11,7 @@ from core import menu,help
 from core import modules_database
 import os
 from modules import dirbb
+from modules import baidu
 from modules import sms
 from modules import query
 from modules import burp
@@ -20,7 +21,7 @@ from modules import S2045
 def main():
 
     try:
-        line = color.blue + color.underl + color.bold + 'EXP' + color.end
+        line = color.blue + color.underl + color.bold + 'xsf' + color.end
         line += ' > '
         line += color.yellow
 
@@ -50,6 +51,9 @@ def main():
             if terminal[4:20] == 'info/dir_scan':
                 dirbb.dirscan()
                 main()
+            elif terminal[4:30] == 'info/baidu':
+                baidu.search()
+                main()
             elif terminal[4:15] == 'tools/12306':
                 query.MyTools().query_12306()
                 main()
@@ -60,13 +64,16 @@ def main():
                 sms.sms_attack()
                 main()
             elif terminal[4:30] == 'cms/nanfang_sqli_newstype':
-                nanfang.sql_exp()
+                nanfang.sql_search()
                 main()
             elif terminal[4:30] == 'exp/s2045':
                 S2045.exp()
                 main()
             elif terminal[4:12]  == 'burp/web':
                 burp.burp()
+                main()
+            elif terminal[4:30] =='misc/msf':
+                msf.gen()
                 main()
             else:
                 print("[-] Not modules")

